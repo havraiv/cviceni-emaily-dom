@@ -1,4 +1,4 @@
-import { Email } from './Email/index.js';
+import { Email } from './components/Email/index.js';
 const renderSection = (emails, element) => {
   element = emails.map((email) => {
     let unread = 'opened';
